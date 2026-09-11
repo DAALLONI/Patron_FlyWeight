@@ -1,6 +1,6 @@
 package sinflyweight;
 
-public class GunterMalo {
+public class GunterCompleto {
 
     private String tipo;
     private String sonido;
@@ -8,7 +8,7 @@ public class GunterMalo {
     private int x;
     private int y;
 
-    public GunterMalo(String tipo, int x, int y) {
+    public GunterCompleto(String tipo, int x, int y) {
 
         this.tipo = tipo;
         this.sonido = "Wenk";
